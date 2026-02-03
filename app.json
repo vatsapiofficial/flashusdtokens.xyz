@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "flash-usdt-sender",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
@@ -29,6 +30,9 @@
         "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
       },
       "description": "Secure Flash USDT Sending Application"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
